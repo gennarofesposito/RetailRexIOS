@@ -1,0 +1,55 @@
+The task will be to build an iOS app for a members of the national lottery’s “Retailer Growth Executive” sales team.
+Each team member visits a series of retail stores to assess how effective the retailers  lottery product displays are in with the retailers store store  
+
+Context : 
+The RGE visits one of their list of stores and, during the visit, check the following things and captures evidence of each :
+
+1) placement of the “PlayStation” which is the lottery branded stand where folks fill in their paper lottery game playlips.
+2) Whether there hoppers in the PlayStation are full with each of the 6 payslips for lottery games (lotto, lotto-hotpicks, Euromillions, Euromillions-hotpicks, set-for-life , powerball.  They capture  who to of the hoppers to evidence  
+3) Whether the PlayStation has a pen
+4) Whether the PlayStation has up to date promotional ‘slot in’ posters / content 
+
+For evidence : They take one or two photos of the PlayStation to capture its context in store, the hoppers , pen and updated posters . 
+
+5) whether the Lottery Counter Unit (L.C.U.) which stores the lottery Scratch-cards is prominently placed
+6) Whether all the slots in the L.C.U. are filled with scratchcards or there are blank slots
+
+For evidence : They take “before and after” photos of the LCU to capture the  state of all the scratch-card slots. When they leave the hoppers should be full. 
+
+8) Whether the lottery terminal and it scanner are working properly 
+9) The placement of other materials like promotional posters around the shop, or in the shop window
+
+For evidence : They take one or two photos of the terminal and other promotional placements in the store  . 
+
+10) They also check verbally with the retailer about 
+  — how business is generally 
+  — if they need any more scratch-card stock, game playslips, lottery terminal till roll
+  — ideas to improve the layout of lottery materials 
+
+For evidence / flow up : They then type up a summary of that retailer conversation with any actions. 
+
+End of context.
+
+
+
+Can you Make an Apple iOS app that helps the RGE do a store visit. The app will be balled “REX” (which is short for Retailer Experience 
+
+Capture  storeId and the date and use that to annotate data records for the store visit. Use firebase as the back end for strong evidence photos and data. store the overall visit information in json format , linking via url to the evidence photos stored on firebase 
+
+The format of the app should be a workflow or wizard stepping them through the check list of items that need doing and capturing the evidence as they go
+
+~~~~~~~~~~~~~~~~~~ Original Promopt Above ~~~~~~~~~~~~~~~~~
+
+on all the screens where photo evidence is captured it is only simulating a cpature - change it so the device camera is used to capture real photos
+
+change the icon for the app to be a red "REX" on a grey background with rounded corners
+
+and use a firebase project called "Retail Experience" with firebase projectId of "retail-experience-8a4a3"
+
+Also when saving to firebase, the spinner never stops and no json is written to firebase, just the images. can you save the JSON first and diagnose why it is never finishing
+
+at the end of the process the "preview firebase JSON record" button does not seem to work.
+
+when clicking the "start Audit" buttons on the "store directory" page then the "selected retail store" on the "rex store visit" is not updated to reflect the one clicked.
+
+when storing the json file to firebase - use the firebase file storage as opposed to any type of complex database. Seeing an error that "[FirebaseFirestore][I-FST000001] WriteStream (313164363764613538) Stream error: 'Not found: The database (default) does not exist for project retailgrowth Please visit https://console.cloud.google.com/datastore/setup?project=retailgrowth to add a Cloud Datastore or Cloud Firestore database. '"

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FDE5EE0C84FE0DB70A4DA0 /* RetailRex/Services/FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52EE4717D58117838A8703 /* RetailRex/Services/FirebaseService.swift */; };
+		093AEB4E56D8E3DDC96298D5 /* RetailRex/Models/LCUAudit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593EF2EFD4A14425558ACFB /* RetailRex/Models/LCUAudit.swift */; };
+		096929651AE7CE7EEAFEDB62 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FECC8A7E584C4808660F67A8 /* FirebaseFirestore */; };
+		0B90E589AC6EEDB350402340 /* RetailRex/Views/Wizard/Step3LCUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91EB8D7D50737E9ABF4F231 /* RetailRex/Views/Wizard/Step3LCUView.swift */; };
+		12462CDDDCA22392176787AC /* RetailRex/Views/Wizard/Step4TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E581AAB008EB7ED126CE0 /* RetailRex/Views/Wizard/Step4TerminalView.swift */; };
+		2CAB2AF103B134D87CA50752 /* RetailRex/Utilities/ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C97E113D9DD25CDAFEFFD /* RetailRex/Utilities/ColorExtension.swift */; };
+		3EF52248E75B24E0DF45E101 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = "TEMP_7435BB4C-D1D6-42D9-9386-1D7182DDBB09" /* FirebaseCore */; };
+		444C260F38A8760BFBE56F7B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 119DC9C4B292A5A5539C0A48 /* FirebaseAuth */; };
+		54C1B381E003F23FBF25A789 /* RetailRex/Views/Wizard/Step6ReviewSubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A47F6EAC0BC30EAD0B5D12 /* RetailRex/Views/Wizard/Step6ReviewSubmitView.swift */; };
+		5723A1BD7E57CB68C9E9421A /* RetailRex/ViewModels/StoreVisitWizardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23777905172F4991B707B6 /* RetailRex/ViewModels/StoreVisitWizardViewModel.swift */; };
+		5C70AF21D48DC325E87A318B /* RetailRex/Models/TerminalAudit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03B384939D7D4A6310443B /* RetailRex/Models/TerminalAudit.swift */; };
+		5DB36A57D35CB5D74B536FA7 /* RetailRex/RetailRexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946C6EAD7DA3BB49E947EE /* RetailRex/RetailRexApp.swift */; };
+		62DBCC758226BD0966E25D35 /* RetailRex/Views/Components/HopperStatusToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B59B343A725ECB2B8B365C /* RetailRex/Views/Components/HopperStatusToggle.swift */; };
+		63320E60E4B3B9998481EF95 /* RetailRex/Models/Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238DF819BC9D9064C5C2AE7 /* RetailRex/Models/Store.swift */; };
+		7231DBF457333DE5874A2D1C /* RetailRex/Views/Wizard/StoreVisitWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE060CEE4927AD484FC68E4 /* RetailRex/Views/Wizard/StoreVisitWizardView.swift */; };
+		77F4263FD110CB6D69741F9E /* RetailRex/Models/RetailerCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D580E9079FE80F3CEE50C29C /* RetailRex/Models/RetailerCheckIn.swift */; };
+		88DAD7D6880A16E47D91EC5A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 269AB710D6047355C44EF1D9 /* FirebaseCore */; };
+		8D19C39DC4838224839A5B11 /* RetailRex/Models/StoreVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61586D04FFAE82CF3314654C /* RetailRex/Models/StoreVisit.swift */; };
+		8EAC098B91743DF9BCF17973 /* RetailRex/Views/Dashboard/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF239ACA6DD2974E195AC72 /* RetailRex/Views/Dashboard/DashboardView.swift */; };
+		95175030EA7254541532F860 /* RetailRex/Views/Wizard/Step2PlayStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E698F814B51F312FA69AFD5 /* RetailRex/Views/Wizard/Step2PlayStationView.swift */; };
+		AA6996217193E8903BAD452C /* RetailRex/Views/Wizard/Step1StoreSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11D627D18AF7FF32574680 /* RetailRex/Views/Wizard/Step1StoreSelectionView.swift */; };
+		B4F998F085B396496FCBC88D /* RetailRex/Utilities/CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69994411277A84ACFFBFD366 /* RetailRex/Utilities/CameraPicker.swift */; };
+		B6C552EC0135945E65E87CB9 /* RetailRex/Views/Components/StepProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB8FB31CDEBCC3BAB546FC /* RetailRex/Views/Components/StepProgressBar.swift */; };
+		B7472172E6C64E633F4B3049 /* RetailRex/Views/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8C3819C225CE99831B090 /* RetailRex/Views/MainTabView.swift */; };
+		B906512FF21C63630976B4FE /* RetailRex/Views/Stores/StoreDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904B48FD558B5774C932CDC0 /* RetailRex/Views/Stores/StoreDirectoryView.swift */; };
+		C6C52335F48298BFC2E9891A /* RetailRex/Views/Components/StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E0FC6431B50B867848A95 /* RetailRex/Views/Components/StatusBadge.swift */; };
+		CEE1ED629F30C8F8771C0A4F /* RetailRex/GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADD45029C3F84F8A68881713 /* RetailRex/GoogleService-Info.plist */; };
+		D094ED57EBD6FEBD9D02905E /* RetailRex/Views/VisitDetail/VisitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C30B80B053864FC9EAEAB /* RetailRex/Views/VisitDetail/VisitDetailView.swift */; };
+		DB4B389A1A9449704C68C311 /* RetailRex/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E934DE3A436C82F0A13007EA /* RetailRex/Assets.xcassets */; };
+		E329CC7BCB0E2732D1707327 /* RetailRex/Models/PlayStationAudit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D718CD95554BCC682774F /* RetailRex/Models/PlayStationAudit.swift */; };
+		E3781D839721FB07A659B785 /* RetailRex/Views/Wizard/Step5RetailerCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE2391A4D61E65CA4D40D0 /* RetailRex/Views/Wizard/Step5RetailerCheckInView.swift */; };
+		E3EDA44DDF34FED6C2A7EE59 /* RetailRex/Views/VisitDetail/JSONExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A8C1603E9BBF743436DC8 /* RetailRex/Views/VisitDetail/JSONExportView.swift */; };
+		E5AD6F9B32EE7D4F465CFE8E /* RetailRex/Views/Components/CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE05ABD4C593BB711CA55EF /* RetailRex/Views/Components/CustomImagePicker.swift */; };
+		F876C6F2633AC54A23B9911E /* RetailRex/Services/VisitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BD5F7F52CC7D01E36AB5B /* RetailRex/Services/VisitRepository.swift */; };
+		FB3A700A0680B189192BAD16 /* RetailRex/Models/PhotoEvidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA9C6346A7F4A94124805C /* RetailRex/Models/PhotoEvidence.swift */; };
+		FCE7271C1A82F144F29A172B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 966CB892351E7A29EE01B901 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		088E581AAB008EB7ED126CE0 /* RetailRex/Views/Wizard/Step4TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step4TerminalView.swift; sourceTree = "<group>"; };
+		0E698F814B51F312FA69AFD5 /* RetailRex/Views/Wizard/Step2PlayStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step2PlayStationView.swift; sourceTree = "<group>"; };
+		12946C6EAD7DA3BB49E947EE /* RetailRex/RetailRexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/RetailRexApp.swift; sourceTree = "<group>"; };
+		1E52EE4717D58117838A8703 /* RetailRex/Services/FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Services/FirebaseService.swift; sourceTree = "<group>"; };
+		3D11D627D18AF7FF32574680 /* RetailRex/Views/Wizard/Step1StoreSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step1StoreSelectionView.swift; sourceTree = "<group>"; };
+		4238DF819BC9D9064C5C2AE7 /* RetailRex/Models/Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/Store.swift; sourceTree = "<group>"; };
+		45BE2391A4D61E65CA4D40D0 /* RetailRex/Views/Wizard/Step5RetailerCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step5RetailerCheckInView.swift; sourceTree = "<group>"; };
+		49B59B343A725ECB2B8B365C /* RetailRex/Views/Components/HopperStatusToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Components/HopperStatusToggle.swift; sourceTree = "<group>"; };
+		4EE05ABD4C593BB711CA55EF /* RetailRex/Views/Components/CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Components/CustomImagePicker.swift; sourceTree = "<group>"; };
+		5A03B384939D7D4A6310443B /* RetailRex/Models/TerminalAudit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/TerminalAudit.swift; sourceTree = "<group>"; };
+		5D8E0FC6431B50B867848A95 /* RetailRex/Views/Components/StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Components/StatusBadge.swift; sourceTree = "<group>"; };
+		5F5BD5F7F52CC7D01E36AB5B /* RetailRex/Services/VisitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Services/VisitRepository.swift; sourceTree = "<group>"; };
+		61586D04FFAE82CF3314654C /* RetailRex/Models/StoreVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/StoreVisit.swift; sourceTree = "<group>"; };
+		6593EF2EFD4A14425558ACFB /* RetailRex/Models/LCUAudit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/LCUAudit.swift; sourceTree = "<group>"; };
+		69994411277A84ACFFBFD366 /* RetailRex/Utilities/CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Utilities/CameraPicker.swift; sourceTree = "<group>"; };
+		6BBA9C6346A7F4A94124805C /* RetailRex/Models/PhotoEvidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/PhotoEvidence.swift; sourceTree = "<group>"; };
+		6D5D718CD95554BCC682774F /* RetailRex/Models/PlayStationAudit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/PlayStationAudit.swift; sourceTree = "<group>"; };
+		78A219C3FE3467E374026B1C /* RetailRex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailRex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E23777905172F4991B707B6 /* RetailRex/ViewModels/StoreVisitWizardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/ViewModels/StoreVisitWizardViewModel.swift; sourceTree = "<group>"; };
+		904B48FD558B5774C932CDC0 /* RetailRex/Views/Stores/StoreDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Stores/StoreDirectoryView.swift; sourceTree = "<group>"; };
+		94A47F6EAC0BC30EAD0B5D12 /* RetailRex/Views/Wizard/Step6ReviewSubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step6ReviewSubmitView.swift; sourceTree = "<group>"; };
+		ADD45029C3F84F8A68881713 /* RetailRex/GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RetailRex/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADE8C3819C225CE99831B090 /* RetailRex/Views/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/MainTabView.swift; sourceTree = "<group>"; };
+		B81C30B80B053864FC9EAEAB /* RetailRex/Views/VisitDetail/VisitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/VisitDetail/VisitDetailView.swift; sourceTree = "<group>"; };
+		B86288B2048726943D955C54 /* RetailRex/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RetailRex/Info.plist; sourceTree = "<group>"; };
+		BFF239ACA6DD2974E195AC72 /* RetailRex/Views/Dashboard/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Dashboard/DashboardView.swift; sourceTree = "<group>"; };
+		D1CB8FB31CDEBCC3BAB546FC /* RetailRex/Views/Components/StepProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Components/StepProgressBar.swift; sourceTree = "<group>"; };
+		D44A8C1603E9BBF743436DC8 /* RetailRex/Views/VisitDetail/JSONExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/VisitDetail/JSONExportView.swift; sourceTree = "<group>"; };
+		D580E9079FE80F3CEE50C29C /* RetailRex/Models/RetailerCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Models/RetailerCheckIn.swift; sourceTree = "<group>"; };
+		D93C97E113D9DD25CDAFEFFD /* RetailRex/Utilities/ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Utilities/ColorExtension.swift; sourceTree = "<group>"; };
+		DFE060CEE4927AD484FC68E4 /* RetailRex/Views/Wizard/StoreVisitWizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/StoreVisitWizardView.swift; sourceTree = "<group>"; };
+		E91EB8D7D50737E9ABF4F231 /* RetailRex/Views/Wizard/Step3LCUView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailRex/Views/Wizard/Step3LCUView.swift; sourceTree = "<group>"; };
+		E934DE3A436C82F0A13007EA /* RetailRex/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RetailRex/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B202ADEE8915B31E19B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF52248E75B24E0DF45E101 /* FirebaseCore in Frameworks */,
+				88DAD7D6880A16E47D91EC5A /* FirebaseCore in Frameworks */,
+				444C260F38A8760BFBE56F7B /* FirebaseAuth in Frameworks */,
+				096929651AE7CE7EEAFEDB62 /* FirebaseFirestore in Frameworks */,
+				FCE7271C1A82F144F29A172B /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A44E80E022715A0FA4D7C0A = {
+			isa = PBXGroup;
+			children = (
+				7E23777905172F4991B707B6 /* RetailRex/ViewModels/StoreVisitWizardViewModel.swift */,
+				E934DE3A436C82F0A13007EA /* RetailRex/Assets.xcassets */,
+				6BBA9C6346A7F4A94124805C /* RetailRex/Models/PhotoEvidence.swift */,
+				D580E9079FE80F3CEE50C29C /* RetailRex/Models/RetailerCheckIn.swift */,
+				6D5D718CD95554BCC682774F /* RetailRex/Models/PlayStationAudit.swift */,
+				61586D04FFAE82CF3314654C /* RetailRex/Models/StoreVisit.swift */,
+				4238DF819BC9D9064C5C2AE7 /* RetailRex/Models/Store.swift */,
+				6593EF2EFD4A14425558ACFB /* RetailRex/Models/LCUAudit.swift */,
+				5A03B384939D7D4A6310443B /* RetailRex/Models/TerminalAudit.swift */,
+				ADD45029C3F84F8A68881713 /* RetailRex/GoogleService-Info.plist */,
+				12946C6EAD7DA3BB49E947EE /* RetailRex/RetailRexApp.swift */,
+				69994411277A84ACFFBFD366 /* RetailRex/Utilities/CameraPicker.swift */,
+				D93C97E113D9DD25CDAFEFFD /* RetailRex/Utilities/ColorExtension.swift */,
+				ADE8C3819C225CE99831B090 /* RetailRex/Views/MainTabView.swift */,
+				D44A8C1603E9BBF743436DC8 /* RetailRex/Views/VisitDetail/JSONExportView.swift */,
+				B81C30B80B053864FC9EAEAB /* RetailRex/Views/VisitDetail/VisitDetailView.swift */,
+				088E581AAB008EB7ED126CE0 /* RetailRex/Views/Wizard/Step4TerminalView.swift */,
+				94A47F6EAC0BC30EAD0B5D12 /* RetailRex/Views/Wizard/Step6ReviewSubmitView.swift */,
+				E91EB8D7D50737E9ABF4F231 /* RetailRex/Views/Wizard/Step3LCUView.swift */,
+				3D11D627D18AF7FF32574680 /* RetailRex/Views/Wizard/Step1StoreSelectionView.swift */,
+				0E698F814B51F312FA69AFD5 /* RetailRex/Views/Wizard/Step2PlayStationView.swift */,
+				DFE060CEE4927AD484FC68E4 /* RetailRex/Views/Wizard/StoreVisitWizardView.swift */,
+				45BE2391A4D61E65CA4D40D0 /* RetailRex/Views/Wizard/Step5RetailerCheckInView.swift */,
+				904B48FD558B5774C932CDC0 /* RetailRex/Views/Stores/StoreDirectoryView.swift */,
+				BFF239ACA6DD2974E195AC72 /* RetailRex/Views/Dashboard/DashboardView.swift */,
+				D1CB8FB31CDEBCC3BAB546FC /* RetailRex/Views/Components/StepProgressBar.swift */,
+				49B59B343A725ECB2B8B365C /* RetailRex/Views/Components/HopperStatusToggle.swift */,
+				4EE05ABD4C593BB711CA55EF /* RetailRex/Views/Components/CustomImagePicker.swift */,
+				5D8E0FC6431B50B867848A95 /* RetailRex/Views/Components/StatusBadge.swift */,
+				B86288B2048726943D955C54 /* RetailRex/Info.plist */,
+				5F5BD5F7F52CC7D01E36AB5B /* RetailRex/Services/VisitRepository.swift */,
+				1E52EE4717D58117838A8703 /* RetailRex/Services/FirebaseService.swift */,
+				F9924848B5FA6F4C25E59C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9924848B5FA6F4C25E59C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A219C3FE3467E374026B1C /* RetailRex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8588D852E8FCFF01ACED5AF /* RetailRex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499D11F8A720BCFC6EB01107 /* Build configuration list for PBXNativeTarget "RetailRex" */;
+			buildPhases = (
+				2737725E4CFD0F0CECA0D694 /* Sources */,
+				18B202ADEE8915B31E19B2D9 /* Frameworks */,
+				AEA35C108AB286992FB3F891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetailRex;
+			packageProductDependencies = (
+				269AB710D6047355C44EF1D9 /* FirebaseCore */,
+				119DC9C4B292A5A5539C0A48 /* FirebaseAuth */,
+				FECC8A7E584C4808660F67A8 /* FirebaseFirestore */,
+				966CB892351E7A29EE01B901 /* FirebaseStorage */,
+			);
+			productName = RetailRex;
+			productReference = 78A219C3FE3467E374026B1C /* RetailRex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D44CE28DCE428AD8B50AC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					F8588D852E8FCFF01ACED5AF = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E7B46A5161139B92AAA3ED5 /* Build configuration list for PBXProject "RetailRex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A44E80E022715A0FA4D7C0A;
+			packageReferences = (
+				A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F9924848B5FA6F4C25E59C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8588D852E8FCFF01ACED5AF /* RetailRex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA35C108AB286992FB3F891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4B389A1A9449704C68C311 /* RetailRex/Assets.xcassets in Resources */,
+				CEE1ED629F30C8F8771C0A4F /* RetailRex/GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2737725E4CFD0F0CECA0D694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5723A1BD7E57CB68C9E9421A /* RetailRex/ViewModels/StoreVisitWizardViewModel.swift in Sources */,
+				FB3A700A0680B189192BAD16 /* RetailRex/Models/PhotoEvidence.swift in Sources */,
+				77F4263FD110CB6D69741F9E /* RetailRex/Models/RetailerCheckIn.swift in Sources */,
+				E329CC7BCB0E2732D1707327 /* RetailRex/Models/PlayStationAudit.swift in Sources */,
+				8D19C39DC4838224839A5B11 /* RetailRex/Models/StoreVisit.swift in Sources */,
+				63320E60E4B3B9998481EF95 /* RetailRex/Models/Store.swift in Sources */,
+				093AEB4E56D8E3DDC96298D5 /* RetailRex/Models/LCUAudit.swift in Sources */,
+				5C70AF21D48DC325E87A318B /* RetailRex/Models/TerminalAudit.swift in Sources */,
+				5DB36A57D35CB5D74B536FA7 /* RetailRex/RetailRexApp.swift in Sources */,
+				B4F998F085B396496FCBC88D /* RetailRex/Utilities/CameraPicker.swift in Sources */,
+				2CAB2AF103B134D87CA50752 /* RetailRex/Utilities/ColorExtension.swift in Sources */,
+				B7472172E6C64E633F4B3049 /* RetailRex/Views/MainTabView.swift in Sources */,
+				E3EDA44DDF34FED6C2A7EE59 /* RetailRex/Views/VisitDetail/JSONExportView.swift in Sources */,
+				D094ED57EBD6FEBD9D02905E /* RetailRex/Views/VisitDetail/VisitDetailView.swift in Sources */,
+				12462CDDDCA22392176787AC /* RetailRex/Views/Wizard/Step4TerminalView.swift in Sources */,
+				54C1B381E003F23FBF25A789 /* RetailRex/Views/Wizard/Step6ReviewSubmitView.swift in Sources */,
+				0B90E589AC6EEDB350402340 /* RetailRex/Views/Wizard/Step3LCUView.swift in Sources */,
+				AA6996217193E8903BAD452C /* RetailRex/Views/Wizard/Step1StoreSelectionView.swift in Sources */,
+				95175030EA7254541532F860 /* RetailRex/Views/Wizard/Step2PlayStationView.swift in Sources */,
+				7231DBF457333DE5874A2D1C /* RetailRex/Views/Wizard/StoreVisitWizardView.swift in Sources */,
+				E3781D839721FB07A659B785 /* RetailRex/Views/Wizard/Step5RetailerCheckInView.swift in Sources */,
+				B906512FF21C63630976B4FE /* RetailRex/Views/Stores/StoreDirectoryView.swift in Sources */,
+				8EAC098B91743DF9BCF17973 /* RetailRex/Views/Dashboard/DashboardView.swift in Sources */,
+				B6C552EC0135945E65E87CB9 /* RetailRex/Views/Components/StepProgressBar.swift in Sources */,
+				62DBCC758226BD0966E25D35 /* RetailRex/Views/Components/HopperStatusToggle.swift in Sources */,
+				E5AD6F9B32EE7D4F465CFE8E /* RetailRex/Views/Components/CustomImagePicker.swift in Sources */,
+				C6C52335F48298BFC2E9891A /* RetailRex/Views/Components/StatusBadge.swift in Sources */,
+				F876C6F2633AC54A23B9911E /* RetailRex/Services/VisitRepository.swift in Sources */,
+				05FDE5EE0C84FE0DB70A4DA0 /* RetailRex/Services/FirebaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4585216F00AECA0047CCDD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7DLR8HAM8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_PROTOTHREADS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		71001E25938B7A73C22BFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7DLR8HAM8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RetailRex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retailrex.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		779A3EDA125E8BE5EA33865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7DLR8HAM8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_PROTOTHREADS = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A1C665B866DC05E74E33B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A83FV343C9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RetailRex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retailrex.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499D11F8A720BCFC6EB01107 /* Build configuration list for PBXNativeTarget "RetailRex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C665B866DC05E74E33B92 /* Debug */,
+				71001E25938B7A73C22BFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B46A5161139B92AAA3ED5 /* Build configuration list for PBXProject "RetailRex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779A3EDA125E8BE5EA33865A /* Debug */,
+				4585216F00AECA0047CCDD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		119DC9C4B292A5A5539C0A48 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		269AB710D6047355C44EF1D9 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		966CB892351E7A29EE01B901 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FECC8A7E584C4808660F67A8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		"TEMP_7435BB4C-D1D6-42D9-9386-1D7182DDBB09" /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E59BDB3B3573B3E6717EA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7D44CE28DCE428AD8B50AC3F /* Project object */;
+}
